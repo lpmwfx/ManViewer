@@ -1,0 +1,5 @@
+[scan]
+languages = ["rust", "slint"]
+
+[project]
+kind = "slint-app"
