@@ -1,0 +1,13 @@
+# 11 issues
+
+[KNOWN] \\?\D:\REPO\Rules-dev\ManViewer\src\main.rs:1:1: error uiux/mother-child/mother-too-many-fns: mother file has 7 fn definitions (build_nav, file_label, collect_pages, collect_md, push_page, resolve_man_dir, resolve_project_name) — extract to child modules [uiux/mother-child.md]
+[KNOWN] \\?\D:\REPO\Rules-dev\ManViewer\src\main.rs:79:1: error rust/types/no-string-match: stringly-typed match "mica" — define an enum variant instead [rust/types.md]
+[KNOWN] \\?\D:\REPO\Rules-dev\ManViewer\src\main.rs:80:1: error rust/types/no-string-match: stringly-typed match "acrylic" — define an enum variant instead [rust/types.md]
+[KNOWN] \\?\D:\REPO\Rules-dev\ManViewer\src\main.rs:137:1: error rust/constants/no-magic-number: magic number 2 — use named const or _cfg field [rust/constants.md]
+[KNOWN] \\?\D:\REPO\Rules-dev\ManViewer\src\main.rs:140:1: error rust/constants/no-magic-number: magic number 2 — use named const or _cfg field [rust/constants.md]
+[KNOWN] \\?\D:\REPO\Rules-dev\ManViewer\src\main.rs:142:1: error rust/constants/no-magic-number: magic number 2 — use named const or _cfg field [rust/constants.md]
+[KNOWN] \\?\D:\REPO\Rules-dev\ManViewer\src\main.rs:195:1: error rust/errors/no-expect: expect() in non-test code — use ? or return a typed error [rust/errors.md]
+[KNOWN] \\?\D:\REPO\Rules-dev\ManViewer\src\main.rs:197:1: error rust/types/no-string-compare: stringly-typed comparison "man" — discriminators must be enums or named consts [rust/types.md]
+[KNOWN] \\?\D:\REPO\Rules-dev\ManViewer\src\main.rs:20:1: warning rust/ownership/clone-spam: fn `main` has 5 .clone() calls — consider borrowing or restructuring [rust/ownership.md]
+[KNOWN] \\?\D:\REPO\Rules-dev\ManViewer\src\main.rs:43:1: warning rust/threading/arc-rc-comment: Arc/Rc usage without ownership comment — add // why shared? [rust/threading.md]
+[KNOWN] \\?\D:\REPO\Rules-dev\ManViewer\src\main.rs:97:1: warning rust/ownership/clone-spam: fn `build_nav` has 6 .clone() calls — consider borrowing or restructuring [rust/ownership.md]
