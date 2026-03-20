@@ -25,3 +25,12 @@ cargo install --git https://github.com/lpmwfx/ManViewer
 | **rulestools** | [RulesTools](https://github.com/lpmwfx/RulesTools) | Scanner CLI + MCP servers + documenter |
 | **ManViewer** | This repo | GUI viewer for generated docs |
 | **Rules** | [Rules](https://github.com/lpmwfx/Rules) | Markdown rule definitions |
+
+
+---
+
+<!-- LARS:START -->
+<a href="https://lpmathiasen.com">
+  <img src="https://carousel.lpmathiasen.com/carousel.svg?slot=19" alt="Lars P. Mathiasen"/>
+</a>
+<!-- LARS:END -->
